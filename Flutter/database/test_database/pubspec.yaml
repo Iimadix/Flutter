@@ -1,0 +1,21 @@
+name: my_flutter_web_firebase
+description: Firebase + Firestore + Push в Web
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.27.0
+  firebase_messaging: ^14.6.8
+  cloud_firestore: ^4.14.0
+  js: ^0.6.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
